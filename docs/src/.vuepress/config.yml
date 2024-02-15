@@ -1,0 +1,38 @@
+base: /LevelX/
+description: League Level0 Python
+head:
+- - meta
+  - content: '#F37121'
+    name: theme-color
+- - meta
+  - content: true
+    name: apple-mobile-web-app-capable
+- - meta
+  - content: black
+    name: apple-mobile-web-app-status-bar-style
+plugins:
+- '@vuepress/plugin-back-to-top'
+- '@vuepress/plugin-medium-zoom'
+themeConfig:
+  displayAllHeaders: true
+  docsDir: ''
+  editLinkText: ''
+  editLinks: false
+  lastUpdated: false
+  logo: /assets/Flag.png
+  nav:
+  - link: /about/
+    text: About
+  - link: https://jointheleague.org
+    text: The LEAGUE
+  repo: ''
+  sidebar:
+  - path: /intro
+    title: Introduction
+  - children:
+    - path: /lessons/introduction-to-tina-the-turtle/shapes-and-colors/
+      title: Shapes and Colors
+    collapsable: false
+    path: /lessons/introduction-to-tina-the-turtle/
+    title: Introduction to Tina the Turtle
+title: League Level0 Python

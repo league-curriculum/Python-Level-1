@@ -1,0 +1,19 @@
+{
+  "name": "LevelX",
+  "version": "0.0.1",
+  "description": "Template directory for creating content sites",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/LevelX",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
